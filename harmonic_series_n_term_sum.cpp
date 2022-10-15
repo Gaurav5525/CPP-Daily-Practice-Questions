@@ -1,6 +1,6 @@
 /*This Program will Print Harmonic Series and their Summation
 e.g. n=5
-    1/1+1/2+1/3+1/4+1/5
+    1/1 + 1/2 + 1/3 + 1/4 + 1/5
     Sum of series is = 2.28333 */
 #include<iostream>
 using namespace std;
