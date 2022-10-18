@@ -20,8 +20,7 @@ int main(){
     cout<<"Enter Number till you want FIBONACCI Series :: ";
     cin>>num;
 
-    for (int i=0; i<num; i++)
-    {
+    for (int i=0; i<num; i++){
         cout<<fibonacci(i)<<" ";
     }
     return 0;
