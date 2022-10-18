@@ -10,7 +10,6 @@ void swap(int *num1,int *num2){
     *num1=temp;
 
     cout<<"After Swaping First Number is "<<*num1<<" and Second Number is "<<*num2;
-
 }
 
 int main(){
