@@ -20,7 +20,7 @@ int main(){
     }
     arr[position]=element;
 
-    for(i=0;i<=size;i++){
+    for(i=0;i<size;i++){
         cout<<arr[i]<<" ";
     }
     return 0;
