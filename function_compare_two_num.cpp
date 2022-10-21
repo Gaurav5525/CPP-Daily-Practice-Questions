@@ -12,7 +12,7 @@ int max_two(int a, int b){
 
 int main(){
 	
-	int num1;int num2;int max;
+	int num1,num2,max;
 	cout<<"Enter first number:";
 	cin>>num1;
 	cout<<"Enter second number:";
