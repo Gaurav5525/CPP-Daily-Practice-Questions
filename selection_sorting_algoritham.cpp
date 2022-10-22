@@ -39,7 +39,7 @@ int main()
     int arr[] = {60,10,50,30,20,40};
     int size = sizeof(arr) / sizeof(arr[0]);
     selectionSort(arr, size);
-    cout << "Sorted Array" << endl;
+    cout <<endl<<"**** Sorted Array ****"<< endl;
     printarray(arr, size);
     return 0;
     }
