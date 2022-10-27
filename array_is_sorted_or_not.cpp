@@ -13,8 +13,18 @@ int arraySorting(int arr[],int size){
 }
 
 int main(){
-    int arr[]={1,2,3,4,5,6};
-    int size = sizeof(arr)/sizeof(arr[1]);
+    int size;
+
+    cout<<"Enter Size of Array :: ";
+    cin>>size;
+
+    int arr[size];
+
+    cout<<"Enter ARRAY :: ";
+
+    for(int i=0;i<size;i++){
+        cin>>arr[i];
+    }
 
     if(arraySorting(arr,size)==1){
         cout<<"ARRAY is SORTED";
