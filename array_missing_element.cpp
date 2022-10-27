@@ -1,4 +1,4 @@
-//This Program will find missing elemengt in given array
+//This Program will find missing element in given array
 #include<iostream>
 using namespace std;
 
