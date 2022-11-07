@@ -1,4 +1,5 @@
 //This Program is for Singly Linked List for insertion And Deletion of nodes
+//This Program is for Singly Linked List for insertion And Deletion of nodes
 #include <iostream>
 using namespace std;
 
@@ -124,26 +125,17 @@ int main()
     print(head);
     insertAtTail(tail, 12);
     print(head);
-    insertAtTail(tail, 78);
-    print(head);
-    insertAtTail(tail, 90);
-    print(head);
     insertAtMiddle(tail, head, 3, 45);
     print(head);
     insertAtMiddle(tail, head, 4, 70);
-    print(head);
-    insertAtMiddle(tail, head, 1, 100);
     print(head);
     insertAtTail(tail, 56);
     print(head);
     insertAtHead(head, 1);
     print(head);
-    deleteNode(head, 4);
-    print(head);
     deleteNode(head, 1);
     print(head);
-    deleteNode(head, 7);
-    print(head);
+
     cout << "head is " << head->data << endl;
     cout << "tail is " << tail->data << endl;
 
