@@ -1,5 +1,4 @@
 //This Program is for Singly Linked List for insertion And Deletion of nodes
-//This Program is for Singly Linked List for insertion And Deletion of nodes
 #include <iostream>
 using namespace std;
 
